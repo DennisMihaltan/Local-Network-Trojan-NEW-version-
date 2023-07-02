@@ -35,3 +35,5 @@ THE PROCESS:
 
 
 *** READ ALL THE COMPLETED INSTRUCTIONS ON "INSTRUCTIONS.txt" ***
+
+***I want to make it clear that I do not assume any responsibility for the actions or consequences.***
