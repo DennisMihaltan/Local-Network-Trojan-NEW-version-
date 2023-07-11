@@ -5,7 +5,7 @@ I IMPROVE THIS PROJECT FROM: https://github.com/Ashii198/Local_Network_Trojan
 
 I add:
 
-- COMPLETED INSTRUCTIONS  
+- FULL INSTRUCTIONS  
 - "Attacker's autorun.bat"  
 - "Victim's autorun.bat" 
 - "script.vbs" (for execute "game.py" in background, and the Victim will not use the game, all is hide from the Victim's screen)
