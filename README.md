@@ -37,4 +37,6 @@ THE PROCESS:
 
 *** READ ALL THE COMPLETED INSTRUCTIONS ON "INSTRUCTIONS.txt" ***
 
+However, if you just want to encourage me to continue creating stuff, please consider giving back on **BTC Wallet : bc1q97x54d5dw5m5m2c37pz73h53fzdgsyy0z246vz** my efforts and help it grow by buying me coffee
+
 ***I want to make it clear that I do not assume any responsibility for the actions or consequences.***
